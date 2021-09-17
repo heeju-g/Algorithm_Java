@@ -40,6 +40,7 @@ public class CommonElement {
 			b[i] = kb.nextInt();
 		}
 		for(int x : C.solution(n, m, a, b)) System.out.print(x+" ");
+		kb.close();
 	}
 
 }

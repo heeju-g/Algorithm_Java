@@ -1,5 +1,5 @@
 package recursiveAndtree;
-import java.util.*;
+
 /*
  * 재귀함수 : 자기자신을 호출하는 함수. 재귀함수는 스택프레임을 사용한다. 프레임안에는 지역변수, 매개변수, 복귀주소 정보 등이 담겨있다.
  */
@@ -18,6 +18,7 @@ public class Recursive {
 	public static void main(String[] args) {
 		Recursive R = new Recursive();
 		R.DFS(3);
+		
 	}
 
 }

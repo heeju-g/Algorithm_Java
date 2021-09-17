@@ -36,6 +36,7 @@ public class SelectionSort {
 			arr[i] = kb.nextInt();
 		}
 		for(int x : S.solution(n, arr)) System.out.print(x+" ");
+		kb.close();
 	}
 
 }

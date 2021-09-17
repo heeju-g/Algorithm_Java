@@ -22,6 +22,7 @@ public class Fibonacci {
 		Scanner kb = new Scanner(System.in);
 		int n = kb.nextInt();
 		for(int x : F.solution(n)) System.out.print(x+" ");
+		kb.close();
 	}
 	/*  2. 배열 사용하지 않는 방법
 	 * 	public int[] solution(int n) {
