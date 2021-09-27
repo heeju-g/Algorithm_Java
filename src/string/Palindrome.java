@@ -10,11 +10,17 @@ public class Palindrome {
 
 	public String solution(String str) {
 		String answer = "YES";
+		//规过2
+		String tmp = new StringBuffer(str).reverse().toString();
+		if(!str.equalsIgnoreCase(tmp)) return "NO"; 
+		
+		/* 规过1
 		str = str.toUpperCase();
 		int len = str.length();
 		for(int i = 0; i<len/2;i++) {
 			if(str.charAt(i)!=str.charAt(len-i-1)) return "NO";
 		}
+		*/
 		return answer;
 	}
 	
