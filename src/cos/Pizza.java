@@ -17,6 +17,7 @@ public class Pizza {
             this.price = price;
         }
     }
+    //ºóÄ­1 
     class PizzaStore implements DeliveryStore{
         private ArrayList<Food> menuList;
         private ArrayList<String> orderList;
@@ -30,12 +31,12 @@ public class Pizza {
             
             orderList = new ArrayList<String>();
         }
-        
+        //ºóÄ­ 2
         public void setOrderList(String[] orderList){
             for(int i = 0; i < orderList.length; i++)
                 this.orderList.add(orderList[i]);
         }
-        
+        //ºóÄ­ 3
         public int getTotalPrice(){
             int totalPrice = 0;
             Iterator<String> iter = orderList.iterator();
