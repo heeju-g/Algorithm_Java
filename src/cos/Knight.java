@@ -4,8 +4,6 @@ public class Knight {
 //1. A7이라는 걸 좌표값(0,6)으로 바꾸기
 //2. 8방향을 돌며 좌표를 도는데, 체스판 내부인 것만 카운트
  public int solution(String pos) {
-	 		
-	
 				//체스 이동 좌표 
 				int[] dx = {-2,-1,1,2,2,1,-1,-2};
 				int[] dy = {-1,-2,-2,-1,1,2,2,1};
@@ -53,8 +51,7 @@ public class Knight {
      Knight sol = new Knight();
      String pos = "A7";
      int ret = sol.solution(pos);
- 	
-     // [실행] 버튼을 누르면 출력 값을 볼 수 있습니다.
+
      System.out.println("solution 메소드의 반환 값은 " + ret + " 입니다.");
  }
 
